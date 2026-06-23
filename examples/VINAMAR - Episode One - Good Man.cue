@@ -26,3 +26,9 @@ help to indicate that.
 Well, let me be the first to say that never have I been
 more content in knowing for a fact that we are alone in
 the universe.
+
+The room bursts out in raucous laughter. Vinamar looks
+around with a faint smile, but it is quick to fade as the
+laughter continues.
+
+
