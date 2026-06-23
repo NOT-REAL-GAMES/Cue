@@ -8,8 +8,21 @@ draft: First
 
 .INT. SISYPHUS - MORNING
 
-Another sleepless night. VINAMAR PRASAD stares emptily at the clock built into the ceiling above
-his bed, the window beside him showing a searing sun and some stars floating in the void of space.
+Another sleepless night. VINAMAR PRASAD stares emptily
+at the clock built into the ceiling above his bed, the
+window beside him showing a searing sun and some stars
+floating in the void of space.
 
-He is alone, with the exception of an empty bottle of brandy and half a pack of cigarettes beside
-him. A man in his late 60s, though his wrinkles and scars did not help to indicate that.
+He is alone, with the exception of an empty bottle of 
+brandy and half a pack of cigarettes beside him. A man
+in his late 60s, though his wrinkles and scars did not
+help to indicate that.
+
+
+
+
+
+@VINAMAR
+Well, let me be the first to say that never have I been
+more content in knowing for a fact that we are alone in
+the universe.
