@@ -1,0 +1,26 @@
+{
+  "name": "cue-screenplay",
+  "version": "0.1.0",
+  "description": "Cue: a Markdown-style markup language for screenwriting.",
+  "type": "module",
+  "bin": {
+    "cue": "./bin/cue.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "parse": "node ./bin/cue.js parse",
+    "html": "node ./bin/cue.js html",
+    "preview": "node ./tools/cue-preview.js"
+  },
+  "keywords": [
+    "screenplay",
+    "screenwriting",
+    "markdown",
+    "markup",
+    "cue"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}

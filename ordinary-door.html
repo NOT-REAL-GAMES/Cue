@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>An Ordinary Door</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: "Courier New", Courier, monospace;
+      background: #f4f1ea;
+      color: #171717;
+    }
+
+    body {
+      margin: 0;
+      padding: 40px 16px;
+    }
+
+    main {
+      box-sizing: border-box;
+      width: min(100%, 8.5in);
+      min-height: 11in;
+      margin: 0 auto;
+      padding: 0.75in 0.9in;
+      background: #fffdf8;
+      box-shadow: 0 14px 40px rgb(0 0 0 / 16%);
+    }
+
+    .title-page {
+      min-height: 4.5in;
+      display: grid;
+      place-items: center;
+      text-align: center;
+    }
+
+    .title-page h1 {
+      margin: 0 0 16px;
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+
+    .title-page p {
+      margin: 4px 0;
+      font-size: 12px;
+    }
+
+    .section {
+      margin: 28px 0 18px;
+      font-size: 13px;
+      text-transform: uppercase;
+    }
+
+    .scene {
+      margin: 18px 0 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .action {
+      margin: 12px 0;
+      white-space: pre-wrap;
+      line-height: 1.45;
+    }
+
+    .dialogue {
+      width: 62%;
+      margin: 12px auto;
+    }
+
+    .cue {
+      margin: 0 0 4px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .speech,
+    .parenthetical {
+      margin: 0 0 4px;
+      line-height: 1.45;
+    }
+
+    .parenthetical {
+      width: 75%;
+      margin-inline: auto;
+    }
+
+    .dual-dialogue {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 28px;
+      margin: 12px 0;
+    }
+
+    .dual-dialogue .dialogue {
+      width: 100%;
+      margin: 0;
+    }
+
+    .shot {
+      margin: 14px 0;
+      font-weight: 700;
+    }
+
+    .transition {
+      margin: 14px 0;
+      text-align: right;
+      text-transform: uppercase;
+    }
+
+    .note {
+      margin: 14px 0;
+      padding-left: 10px;
+      border-left: 3px solid #d0a33f;
+      color: #6b4c00;
+      font-style: italic;
+    }
+
+    @media (max-width: 700px) {
+      body {
+        padding: 0;
+      }
+
+      main {
+        min-height: auto;
+        padding: 28px 18px;
+        box-shadow: none;
+      }
+
+      .dialogue {
+        width: 82%;
+      }
+
+      .dual-dialogue {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="title-page">
+      <div>
+        <h1>An Ordinary Door</h1>
+        <p>by Rae Bell</p>
+        <p>First draft</p>
+      </div>
+    </section>
+    <h1 class="section">ACT ONE</h1>
+<p class="scene">INT. KITCHEN - MORNING</p>
+<p class="action">A kettle screams on a spotless stove.
+MARA, 30s, watches the back door like it owes her money.</p>
+<div class="dialogue">
+      <p class="cue">MARA</p>
+      <p class="parenthetical">(under her breath)</p>
+<p class="speech">Not today.</p>
+    </div>
+<p class="shot">CLOSE ON: THE BACK DOOR</p>
+<p class="action">The handle turns by itself.</p>
+<div class="dual-dialogue">
+      <div class="dialogue">
+      <p class="cue">MARA</p>
+      <p class="speech">Tell me you locked that.</p>
+    </div>
+      <div class="dialogue">
+      <p class="cue">JON</p>
+      <p class="speech">I locked that.</p>
+    </div>
+    </div>
+<aside class="note">The door should feel mundane until this exact moment.</aside>
+<p class="transition">CUT TO:</p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,15 @@
+---
+title: VINAMAR - Episode One - Good Man
+author: Arbiter Waldorff
+draft: First
+---
+
+# ACT ONE
+
+.INT. SISYPHUS - MORNING
+
+Another sleepless night. VINAMAR PRASAD stares emptily at the clock built into the ceiling above
+his bed, the window beside him showing a searing sun and some stars floating in the void of space.
+
+He is alone, with the exception of an empty bottle of brandy and half a pack of cigarettes beside
+him. A man in his late 60s, though his wrinkles and scars did not help to indicate that.

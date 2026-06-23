@@ -1,0 +1,30 @@
+[
+  {
+    "label": "Cue: Live Preview Current File",
+    "command": "node",
+    "args": ["$ZED_WORKTREE_ROOT/tools/cue-preview.js", "$ZED_FILE", "--open"],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "save": "current",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "no_focus",
+    "hide": "never"
+  },
+  {
+    "label": "Cue: Render Current File",
+    "command": "node",
+    "args": [
+      "$ZED_WORKTREE_ROOT/bin/cue.js",
+      "html",
+      "$ZED_FILE",
+      "-o",
+      "$ZED_DIRNAME/$ZED_STEM.html"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "save": "current",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true,
+    "reveal": "no_focus",
+    "hide": "on_success"
+  }
+]
