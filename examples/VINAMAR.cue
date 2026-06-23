@@ -1,12 +1,12 @@
 ---
-title: VINAMAR - Episode One - Good Man
+title: VINAMAR
 author: Arbiter Waldorff
 draft: First
 ---
 
-# ACT ONE
+# CHAPTER ONE - GOOD MAN
 
-.INT. SISYPHUS - MORNING
+.INT. VINAMAR'S QUARTERS - MORNING
 
 Another sleepless night. VINAMAR PRASAD stares emptily
 at the clock built into the ceiling above his bed, the

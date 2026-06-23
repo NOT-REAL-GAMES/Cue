@@ -212,11 +212,23 @@ function parseDialogue(lines, startIndex, cue) {
       break;
     }
 
-    target.push(parseDialogueLine(line, index));
+    appendDialogueLine(target, line, index);
     index += 1;
   }
 
   return { block, nextIndex: index };
+}
+
+function appendDialogueLine(lines, line, index) {
+  const parsedLine = parseDialogueLine(line, index);
+  const previousLine = lines.at(-1);
+
+  if (parsedLine.type === "speech" && previousLine?.type === "speech") {
+    previousLine.text = `${previousLine.text} ${parsedLine.text}`;
+    return;
+  }
+
+  lines.push(parsedLine);
 }
 
 function parseDialogueLine(line, index) {

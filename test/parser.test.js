@@ -77,4 +77,23 @@ The car does not slow down.
     assert.equal(document.blocks[1].type, "action");
     assert.equal(document.blocks[1].text, "The car does not slow down.");
   });
+
+  it("folds single newlines inside dialogue speech", () => {
+    const document = parse(`@MARA
+This line is wrapped
+for easier editing.
+(beat)
+This is another wrapped
+speech paragraph.
+`);
+
+    const dialogue = document.blocks[0];
+    assert.equal(dialogue.type, "dialogue");
+    assert.deepEqual(
+      dialogue.lines.map((line) => line.type),
+      ["speech", "parenthetical", "speech"]
+    );
+    assert.equal(dialogue.lines[0].text, "This line is wrapped for easier editing.");
+    assert.equal(dialogue.lines[2].text, "This is another wrapped speech paragraph.");
+  });
 });

@@ -59,13 +59,23 @@ The wipers keep missing the same crescent of glass.
 
 ## Dialogue
 
-Character cues start with `@`. Dialogue continues until a blank line or the next block.
+Character cues start with `@`. Dialogue continues until a blank line or the next block. Consecutive speech lines are folded into a single speech paragraph, so source text can be wrapped without forcing rendered line breaks.
 
 ```cue
 @MARA
 (trying to smile)
 I brought the key.
 ```
+
+This source:
+
+```cue
+@MARA
+I wrapped this line
+for easier editing.
+```
+
+renders as one speech paragraph.
 
 Parentheticals are dialogue lines that begin with `(` and end with `)`.
 
